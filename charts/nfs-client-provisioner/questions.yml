@@ -1,0 +1,9 @@
+questions:
+- variable: image.registry
+  label: Docker Registry
+  description: Docker Registry to pull image from
+  required: true
+  type: enum
+  options:
+  - "docker1"
+  - "docker2"
