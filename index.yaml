@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nfs-client-provisioner:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2021-10-04T17:50:13.835966051-03:00"
+    description: nfs-client is an automatic provisioner that used your *already configured*
+      NFS server, automatically creating Persistent Volumes.
+    digest: 7d66bda1d03a62224e7d9b64845f968a2f62d563f8c3b425df32779a810ec60b
+    home: https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+    keywords:
+    - nfs
+    - storage
+    maintainers:
+    - email: bart@verwilst.be
+      name: verwilst
+    name: nfs-client-provisioner
+    sources:
+    - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+    urls:
+    - https://github.com/leonardoalvesprates/mylab-helm-charts/releases/download/nfs-client-provisioner-1.2.5/nfs-client-provisioner-1.2.5.tgz
+    version: 1.2.5
+generated: "2021-10-04T17:50:13.565967534-03:00"
