@@ -4,6 +4,7 @@ questions:
   description: Docker Registry to pull image from
   required: true
   type: enum
+  default: ""
   options:
   - "docker1"
   - "docker2"
